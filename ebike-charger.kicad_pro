@@ -648,7 +648,7 @@
         "uuid": "9487e442-8735-4068-9b97-626a2310d20e"
       }
     ],
-    "used_designators": "D1,#PWR1-5,C1-3,R1-2,J1-3,U1-3,P1",
+    "used_designators": "L1,D1,#PWR1-12,C1-9,R1-9,Cin1,J1-3,U1-3,P1,Cboot1,Cvcc1,Q1-2,Cout1,Cvin1,Rfbt1,Dboot1,Rfbb1,Rpg1,Ccomp1,Css1,Rcomp1,Rt1",
     "variants": []
   },
   "sheets": [
