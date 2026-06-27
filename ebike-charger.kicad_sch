@@ -16,52 +16,6 @@
 		(uuid "5c1e37e6-4802-469a-886d-81546123f13a")
 	)
 	(sheet
-		(at 241.3 63.5)
-		(size 25.4 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "04fe479f-c6a5-4df5-9e8e-6afa88f2b1ce")
-		(property "Sheetname" "Output"
-			(at 241.3 62.7884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "output.kicad_sch"
-			(at 241.3 102.1846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ebike-charger"
-				(path "/9487e442-8735-4068-9b97-626a2310d20e"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 38.1 63.5)
 		(size 25.4 38.1)
 		(exclude_from_sim no)
@@ -179,7 +133,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e2f83f9b-c4fd-4c7b-9c69-536dbdc74d0f")
-		(property "Sheetname" "Ideal Diode (Anti-Backfeed)"
+		(property "Sheetname" "Ideal Diode (Anti-Backfeed) and Output"
 			(at 190.5 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -190,7 +144,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ideal-diode.kicad_sch"
+		(property "Sheetfile" "ideal-diode-output.kicad_sch"
 			(at 190.5 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -255,6 +209,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "V_CHARGE" input
+			(at 114.3 67.31 0)
+			(uuid "47bdc3a9-2bbc-44c4-b222-f323a48a3e51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -648,7 +648,7 @@
         "uuid": "9487e442-8735-4068-9b97-626a2310d20e"
       }
     ],
-    "used_designators": "#PWR1-3,C1,R1-2,J1-3,U1-3,P1",
+    "used_designators": "D1,#PWR1-5,C1-3,R1-2,J1-3,U1-3,P1",
     "variants": []
   },
   "sheets": [
@@ -666,15 +666,11 @@
     ],
     [
       "e2f83f9b-c4fd-4c7b-9c69-536dbdc74d0f",
-      "Ideal Diode (Anti-Backfeed)"
+      "Ideal Diode (Anti-Backfeed) and Output"
     ],
     [
       "d0a299e2-59f5-4d51-8499-f55360449d63",
       "Current Limit Sense"
-    ],
-    [
-      "04fe479f-c6a5-4df5-9e8e-6afa88f2b1ce",
-      "Output"
     ]
   ],
   "text_variables": {},

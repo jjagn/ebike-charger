@@ -610,9 +610,20 @@
 		)
 		(uuid "2d1ff200-30aa-44da-abd2-7fa4450ce0a6")
 	)
+	(hierarchical_label "V_CHARGE"
+		(shape input)
+		(at 203.2 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "941b84a2-ef74-4fcb-9dfa-e0792a050a1b")
+	)
 	(symbol
 		(lib_id "Snapeda:LM5122ZPWPR")
-		(at 140.97 93.98 0)
+		(at 130.81 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -623,7 +634,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb4df19a-daae-42c5-ade2-e8f5ba76eb65")
 		(property "Reference" "U2"
-			(at 140.97 50.8 0)
+			(at 130.81 44.45 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -633,7 +644,7 @@
 			)
 		)
 		(property "Value" "LM5122ZPWPR"
-			(at 140.97 53.34 0)
+			(at 130.81 46.99 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -643,7 +654,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:PWP0024J_L"
-			(at 140.97 55.88 0)
+			(at 130.81 49.53 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -653,7 +664,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/lm5122"
-			(at 140.97 58.42 0)
+			(at 130.81 52.07 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -663,7 +674,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 93.98 0)
+			(at 130.81 87.63 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
