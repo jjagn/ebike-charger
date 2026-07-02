@@ -648,7 +648,7 @@
         "uuid": "9487e442-8735-4068-9b97-626a2310d20e"
       }
     ],
-    "used_designators": "L1,D1,#PWR1-12,C1-9,R1-9,Cin1,J1-3,U1-3,P1,Cboot1,Cvcc1,Q1-2,Cout1,Cvin1,Rfbt1,Dboot1,Rfbb1,Rpg1,Ccomp1,Css1,Rcomp1,Rt1",
+    "used_designators": "L1,D1,#PWR1-17,C1-9,R1-9,Cin1,J1-3,U1-4,P1,Cboot1,Cvcc1,Q1-3,Cout1,Cvin1,Rfbt1,Dboot1,Rfbb1,Rpg1,Ccomp1,Css1,Rcomp1,Rt1,IC1-2",
     "variants": []
   },
   "sheets": [
@@ -667,10 +667,6 @@
     [
       "e2f83f9b-c4fd-4c7b-9c69-536dbdc74d0f",
       "Ideal Diode (Anti-Backfeed) and Output"
-    ],
-    [
-      "d0a299e2-59f5-4d51-8499-f55360449d63",
-      "Current Limit Sense"
     ]
   ],
   "text_variables": {},
